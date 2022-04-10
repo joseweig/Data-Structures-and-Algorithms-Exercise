@@ -125,3 +125,14 @@ class MaxHeap {
         }      
     }
 }
+
+const arrTest = [10, 1,9,293,401,22,1,0,6579,0];
+
+let heap = new MaxHeap();
+heap.buildHeap(arrTest);
+
+console.log(heap.values);
+
+heap.extractMax();
+
+console.log(heap.values);
